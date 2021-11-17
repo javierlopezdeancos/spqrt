@@ -1,24 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo  from './logo.png';
 import './App.css';
+import { OrganizationChart } from './components/OrganizationChart.component';
+import { OrganizationProvider } from './organization/org.context';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="spqrt-app">
+      <header className="spqrt-header">
+        <img src={logo} alt="Logo" width="200px"/>
+        <h1>Quintili Vare, legiones redde!!</h1>
       </header>
+      <main className="spqrt-main">
+          <OrganizationProvider>
+            <OrganizationChart />
+          </OrganizationProvider>
+      </main>
     </div>
   );
 }
