@@ -2,7 +2,7 @@
 
 # SPQRT
 
-An organizational chart in react
+An Rome legion organizational chart in react
 
 ## Components
 ### Components and BoundedContext Hierarchy
