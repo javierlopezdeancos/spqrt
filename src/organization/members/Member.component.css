@@ -19,8 +19,8 @@
 .spqrt-card-remove {
   display: none;
   position: absolute;
-  top: 0;
-  right: 30px;
+  top: 0px;
+  right: 20px;
 }
 
 .spqrt-card:hover .spqrt-card-remove {
@@ -33,11 +33,21 @@
 }
 
 .spqrt-card-title {
-  font-size: calc(5px + 2vmin);
+  font-size: calc(5px + 1.5vmin);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
 }
 
+.spqrt-card-start-date {
+  margin-top: 10px;
+  font-size: calc(2px + 1vmin);
+  color: #999;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
 .spqrt-card-title-input {
-  font-size: calc(20px + 2vmin);
+  font-size: calc(10px + 2vmin);
   font-weight: 600;
   border: none;
   border-bottom: 2px solid black;

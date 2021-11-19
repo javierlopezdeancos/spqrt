@@ -1,4 +1,5 @@
 import React, { useState, useCallback } from 'react';
+import { format } from "date-fns";
 import { Member  } from './member.model';
 import './Member.component.css';
 import Dialog from '../../components/Dialog.component';
@@ -61,7 +62,7 @@ export function Card(props: ICardProps) {
     <>
       <article className="spqrt-card">
         {
-          !isEditingName &&  <span className="spqrt-card-remove" onClick={() => removeMember(member)}>👎</span>
+          !isEditingName &&  <span className="spqrt-card-remove" onClick={() => removeMember(member)}>💀</span>
         }
         {
           isEditingName
@@ -71,6 +72,7 @@ export function Card(props: ICardProps) {
             : <span className="spqrt-card-name" onClick={activeEditMode}>{name}</span>
         }
         <span className="spqrt-card-title" onClick={openEditDialog}>{member.shield} {member.title}</span>
+        <span className="spqrt-card-start-date">Roman citizen from {format(member.startDate, "MMMM do, yyyy")}</span>
       </article>
       <Dialog
         open={open}

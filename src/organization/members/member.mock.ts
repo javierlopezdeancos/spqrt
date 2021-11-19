@@ -376,7 +376,7 @@ export const members = [
           {
     id: 'a7f58cdf-37c9-4c81-b994-845b1087fbe6',
     title: Title.legionnaire,
-    name: "Veturia Gavrus(",
+    name: "Veturia Gavrus",
     shield: Shield.legionnaire,
     startDate: new Date(25, 7, 10)
   },
