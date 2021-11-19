@@ -1,8 +1,8 @@
 import React from 'react';
 import logo  from './logo.png';
 import './App.css';
-import { OrganizationChart } from './components/OrganizationChart.component';
-import { OrganizationProvider } from './organization/org.context';
+import { OrganizationChart } from './organization/OrganizationChart.component';
+import { OrganizationProvider } from './organization/organization.context';
 
 function App() {
   return (

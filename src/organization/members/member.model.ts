@@ -25,4 +25,3 @@ export type Member = {
     shield: string,
     startDate: Date,
 }
-

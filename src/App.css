@@ -2,6 +2,7 @@ body {
   width: 100%;
   background: #fdfdfd;
   overflow-x: hidden;
+  accent-color: #F6821F;
 }
 
 .spqrt-app {

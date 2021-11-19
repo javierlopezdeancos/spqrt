@@ -1,4 +1,4 @@
-import React, { ReactChild } from 'react'
+import React from 'react'
 import { createPortal } from 'react-dom'
 import './Dialog.component.css'
 
@@ -6,7 +6,7 @@ export interface IDialogProps {
   onClose: () => void;
   open?: boolean;
   closeButton?: boolean;
-  children?: ReactChild;
+  children?: any;
 }
 
 export function Dialog(props: IDialogProps) {
