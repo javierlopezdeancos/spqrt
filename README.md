@@ -76,3 +76,10 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+
+## Enhancements
+
+- An Image component to allow progressive blur loading and lazy loading.
+- Apply lazy loading in our members list view with react suspense.
+- Add a member picture field in member model.
+- Review css breakpoints, set customVariables to use it and apply when dark mode exist.
