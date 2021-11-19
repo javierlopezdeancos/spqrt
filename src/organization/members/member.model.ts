@@ -21,7 +21,7 @@ export enum Shield {
 export type Member = {
     id: string,
     name: string,
-    title: Title,
+    title: string,
     shield: string,
     startDate: Date,
 }

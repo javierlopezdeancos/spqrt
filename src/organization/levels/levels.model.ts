@@ -1,6 +1,6 @@
 import { Title } from '../members/member.model';
 
-export type Level = Title[][];
+export type Level = string[][];
 
 const Levels = [
   [Title.imperatorAugustus],
@@ -9,6 +9,6 @@ const Levels = [
   [Title.centurio],
   [Title.decurio],
   [Title.legionnaire],
-];
+] as string[][];
 
 export default Levels;

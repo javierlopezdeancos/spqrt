@@ -5,7 +5,7 @@ const getMembersGroupedByLevel = (ms: Member[]): Member[][] => {
   const members = [] as Member[][];
 
   for (const member of [...ms]) {
-    const l = getLevel(member.title);
+    const l = getLevel(member.title as string);
 
     if (l >= 0) {
       if (!members[l]) {

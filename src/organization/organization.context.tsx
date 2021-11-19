@@ -8,6 +8,7 @@ const defaultState = {
   updateMember: (m: Member): void => { },
   getMembers: (): Member[][] | null => { return null },
   removeMember: (m: Member): void => { },
+  addMember: (m: Member): void => { },
 };
 
 const OrganizationContext = createContext(defaultState);
@@ -111,6 +112,7 @@ class OrganizationProvider extends React.Component {
           updateMember: this.updateMember,
           setMembersGroupedByLevel: this.setMembersGroupedByLevel,
           removeMember: this.removeMember,
+          addMember: this.addMember,
         }}
       >
         {children}

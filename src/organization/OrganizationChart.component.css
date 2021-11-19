@@ -1,0 +1,90 @@
+.spqrt-organization-chart {
+  position: relative;
+}
+
+.spqrt-organization-chart-add-header{
+  width: 100%;
+  text-align: center;
+  margin-bottom: calc(10px + 0.5vmin);
+}
+
+.spqrt-organization-chart-add-header h3{
+  font-size: calc(10px + 1vmin);
+}
+
+.spqrt-organization-chart-add-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.spqrt-organization-chart-add-input {
+  font-size: calc(12px + 2vmin);
+  font-weight: 600;
+  border: none;
+  border-bottom: 2px solid black;
+  background: transparent;
+  appearance: none;
+  text-align: center;
+  font-family: ui-serif;
+  margin-bottom: 30px;
+}
+
+.spqrt-organization-chart-add-input::placeholder {
+  color: #ccc;
+  font-weight: 400;
+}
+
+.spqrt-organization-chart-add-input:focus {
+  outline: none;
+}
+
+.spqrt-organization-chart-add-titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.spqrt-organization-chart-add-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.spqrt-organization-chart-add-title-radio:hover {
+  cursor: pointer
+}
+
+.spqrt-organization-chart-add-title-radio {
+  margin-right: 10px;
+}
+
+.spqrt-organization-chart-add-title-label {
+  font-size: calc(10px + 0.5vmin);
+}
+
+.spqrt-organization-chart-add-footer {
+  width: 100%;
+  position: absolute;
+  bottom: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.spqrt-organization-chart-add-footer .spqrt-organization-chart-add-button-cancel,
+.spqrt-organization-chart-add-footer .spqrt-organization-chart-add-button-add {
+  appearance: none;
+  background: none;
+  border: none;
+  font-size: calc(12px + 2vmin);
+}
+
+.spqrt-organization-chart-add-footer .spqrt-organization-chart-add-button-cancel:hover,
+.spqrt-organization-chart-add-footer .spqrt-organization-chart-add-button-add:hover {
+  cursor: pointer;
+}

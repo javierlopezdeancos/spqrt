@@ -1,7 +1,6 @@
-import { Title } from '../members/member.model';
 import Levels from './levels.model';
 
-const getLevel = (t: Title): number => {
+const getLevel = (t: string): number => {
   let o = -1 as number;
 
   for (let i = 0; i < Levels.length; i++) {

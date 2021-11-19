@@ -10,7 +10,6 @@ const getMemberUpdatedByTitle = (t: string, m: Member): Member | false => {
       if (Object.prototype.hasOwnProperty.call(Title, key)) {
         // @ts-expect-error
         if (Title[key] === t) {
-          // @ts-expect-error
           m.title = t;
           // @ts-expect-error
           m.shield = Shield[key];

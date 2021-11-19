@@ -20,6 +20,7 @@ This allow us follow the flux pattern with a unidirectional data flow and have c
 <img src="./readme/images/store.png" width="800">
 
 ## State
+
 ### State Management
 
 All Organization Chart state is managed by the react Organization Context API by our own provider and our own hook **useOrganization**.

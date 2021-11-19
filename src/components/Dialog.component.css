@@ -16,7 +16,7 @@
   animation: show 0.25s ease forwards;
   z-index: 9999;
   background: white;
-  padding: 100px 30px;
+  padding: 50px 30px 100px 30px;
   width: 80vw;
   align-items: center;
   justify-content: center;
